@@ -1,0 +1,164 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    background: #050C1B linear-gradient(90deg, #050C1B, #1A4055 15%, #1A4055 35%, #050C1B 50%);
+}
+
+#navbar {
+    position: sticky;
+    color: azure;
+    top: 0;
+    z-index: 10;
+
+}
+
+.hbtn:hover {
+    background-color: #BCEAD5;
+}
+
+.navbar a {
+    color: azure;
+
+}
+
+body {
+    height: 100%;
+}
+
+.box1 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #050C1B;
+}
+
+.divtext1 {
+    font-size: 3rem;
+}
+
+.divtext2 {
+    font-size: 2rem;
+
+}
+
+#middle {
+    background-color: #ede8e8;
+    height: 20rem;
+
+}
+
+#navbar nav div div ul li a {
+    color: #ede8e8;
+}
+
+.title {
+    display: inline-block;
+    border-color: #050C1B;
+
+}
+
+.city {
+    border-color: #050C1B;
+    display: inline-block;
+
+}
+
+
+
+.submitbtn {
+
+    background-color: #050C1B;
+}
+
+.submitbtn:hover {
+    background-color: white;
+    border: 3px solid #050C1B;
+    color: #050C1B;
+}
+
+.wearehere {
+    color: #050C1B;
+
+}
+
+#trending {
+    background: #050C1B linear-gradient(90deg, #050C1B, #1A4055 15%, #1A4055 35%, #050C1B 50%);
+}
+
+.t1 {
+    padding: 15px;
+    color: azure;
+}
+
+.mydropdown {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.dd {
+    margin: 3vh;
+    border: 3px solid #050C1B;
+
+}
+
+.dd:active {
+    background-color: #050C1B;
+    color: beige;
+}
+
+.vacancy {
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ddwn {
+    border: 3px solid #050C1B;
+
+}
+
+.vac {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #ede8e8;
+
+
+}
+
+.vacancy {
+    font-size: 20px;
+
+}
+
+/* SOCIALMEDIA */
+#social-media {
+    background-color: #050C1B;
+    padding: 0;
+
+}
+
+#social-media h3 {
+    color: #ede8e8;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.sicon img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.sicon a:hover img {
+    transform: translateY(-10px);
+}
